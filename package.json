@@ -1,0 +1,14 @@
+{
+    "name": "trlearn",
+    "version": "1.0.0",
+    "description": "",
+    "main": "hello.js",
+    "scripts": {
+        "test": "jshint hello.js"
+    },
+    "author": "Md Mahbub Alam Khan <hkhan.cse@gmail.com> (https://bluewindlab.net/)",
+    "license": "MIT",
+    "devDependencies": {
+        "jshint": "2.13.1"
+    }
+}
