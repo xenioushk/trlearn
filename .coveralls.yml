@@ -1,0 +1,9 @@
+service_name: travis-pro
+repo_token: JHi8zxMszjhFxUQCWZ7SIt7rxDzwJAWBR
+
+language: node_js
+node_js:
+ - "node"
+
+ after_script:
+  - npm run coveralls
