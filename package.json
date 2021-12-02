@@ -4,11 +4,15 @@
     "description": "",
     "main": "hello.js",
     "scripts": {
-        "test": "jshint hello.js"
+        "test": "jshint hello.js",
+        "test:coverage": "jest --coverage",
+        "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
     },
     "author": "Md Mahbub Alam Khan <hkhan.cse@gmail.com> (https://bluewindlab.net/)",
     "license": "MIT",
     "devDependencies": {
+        "coveralls": "3.1.1",
+        "jest": "27.4.3",
         "jshint": "2.13.1"
     }
 }

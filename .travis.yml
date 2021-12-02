@@ -1,3 +1,10 @@
 language: node_js
 node_js:
  - "node"
+
+ script:
+  npm run jshint
+  npm run test:coveralls
+
+ notifications:
+  email: false
